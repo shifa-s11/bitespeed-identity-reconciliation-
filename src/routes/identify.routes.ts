@@ -6,4 +6,4 @@ const identifyController = new IdentifyController();
 
 export const identifyRouter = Router();
 
-identifyRouter.post('/identify', identifyController.identify);
+identifyRouter.post('/', identifyController.identify);
